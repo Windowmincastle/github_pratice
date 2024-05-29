@@ -20,3 +20,16 @@ git log
 
 # add와 커밋을 동시에
 git commit -am "add와 commit 동시에"
+
+# commit 이력 확인 로컬 리포의 이력
+git log가 잇고
+# git log 간결하게
+git log --oneline
+# 전체 이력 조회, ()
+git log --all
+
+
+#원격 저장소로 업로드 브랜치명은 상관이없다. 내가 관리하는 브랜치에다가 push 한다.
+git push origin 브랜치명, 
+
+#충돌 무시하고 강제 push

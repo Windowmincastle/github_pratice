@@ -75,3 +75,15 @@ A a7895598eebb8b3
 B b76b77e503fbf67977d 테스트
 
 git diff A브랜치 B브랜치, 기준이 브랜치가 될수있다.
+
+# 충돌을 해결할 것 이다.
+
+#원격에 변경을 가해서 커밋을 하자.
+git fetch origin master
+git log
+git log --all
+
+
+# git fetch
+# 원격에 변경사항을 로컬에 가져오되 병합은 하지 않는것
+# 

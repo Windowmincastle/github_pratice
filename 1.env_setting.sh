@@ -46,4 +46,12 @@ git push origin 브랜치명
 
 # 1. token 인증방식 : github에서 직접 보안키를 발급
 # 2. 제3자인증 (oauth) 방식
- 
+
+
+#사용자 지정 방법
+#전역적 사용자 지정
+git config --global user.name "Windowmincastle"
+git config --global user.email "이메일"
+
+# 지역적 사용자 지정
+

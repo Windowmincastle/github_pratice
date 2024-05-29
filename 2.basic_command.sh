@@ -17,3 +17,6 @@ git commit -m "메시지타이틀" -m "메시지내용"
 
 # commit 이력 확인 (local repository의 이력)
 git log 
+
+# add와 커밋을 동시에
+git commit -am "add와 commit 동시에"

@@ -57,3 +57,7 @@ git add .
 git commit -m "my first commit"
 git push origin master 또는 main
 
+# 확장자 .gitignore 파일 생성 후 git 추적 제외 대상 나열
+내가 깃으로 이 파일을 추적하지 않겟다.
+
+.gitignore 파일에 포함된 파일들은 추적하지 않겟다.

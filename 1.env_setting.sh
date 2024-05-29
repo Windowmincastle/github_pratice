@@ -53,5 +53,27 @@ git push origin 브랜치명
 git config --global user.name "Windowmincastle"
 git config --global user.email "이메일"
 
-# 지역적 사용자 지정
+# 지역적 사용자 지정 -> 현재 레포에서만 한해서 이름을 변경해서 커밋을 하겠다.
+git config --local user.name "Windowmincastle"
+git config --local user.email "이메일"
+
+# config 내용조회
+# repositroy, 이름 email 등...
+git config --list
+git config --list
+
+# 사용자 이름 조회
+git config user.name
+
+# 사용자 이메일 조회
+git config user.email
+
+# remote 조회
+git config remote.origin.url
+
+# git ignore 파일 실습
+# 확장자 .gitignore 파일 생성 후 git 추적 제외 대상 나열
+
+
+
 

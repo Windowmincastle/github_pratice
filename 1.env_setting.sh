@@ -14,8 +14,8 @@ git remote add origin https://github.com/Windowmincastle/github_pratice.git
 git remote remove origin
 #원격 주소 변경
 git remote set-url origin 레포주소
-#남의 레포를 봣는데 너무 좋다 남의 레포를 가져오고 싶다.
 
+#남의 레포를 봣는데 너무 좋다 남의 레포를 가져오고 싶다.
 #남의 깃헙 레포 주소 카피 위로 한칸 올라간다.-> git clone <주소>
 # cd로 가고싶은 폴더로 이동
 # 내걸로 만들고 싶으면 어떡해 ? .git 폴더를 지워버리고 내가 다시 git init하고 난 여기서부터 시작한거야
@@ -27,7 +27,23 @@ git remote set-url origin 레포주소
 # git 설정정보 조회
 git config --list
 
-# ?
+# push : 원격 repo에 올리는 과정
+# pull : 원격에서 내려받기
 
-이게 보이십니까?
-공부 안하세요?
+# 커밋 이력
+git log
+
+# git add . 모든 변경사항 staging area로 이동
+git add .
+
+#git commit은 staging area의 변경사항을 확정짓고 commitId 생성
+git commit -m "메시지"
+
+#원격 repo에 upload
+git push origin 브랜치명
+
+#github 인증방법 2가지
+
+# 1. token 인증방식 : github에서 직접 보안키를 발급
+# 2. 제3자인증 (oauth) 방식
+ 

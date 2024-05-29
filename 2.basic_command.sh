@@ -55,11 +55,11 @@ git pull origin 브랜치명
 git checkout .
 # staging area에서의 취소
 git reset
-# commit 이후의 취소
+# commit 이후의 취소 -> 엄청 많이 쓰는 것 같다.
 git reset HEAD~1
 git reset HEAD^
 
-# push 이후의 취소
+# push 이후의 취소 push는 아예 없엇던 일이 되는건 불가능하다. 다시 되돌리기만 가능
 git revert 커밋ID
 
 

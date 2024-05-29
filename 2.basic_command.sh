@@ -60,6 +60,5 @@ git reset HEAD~1
 git reset HEAD^
 
 # push 이후의 취소 push는 아예 없엇던 일이 되는건 불가능하다. 다시 되돌리기만 가능
+# 이전에 했던 작업을 그대로 되돌리는
 git revert 커밋ID
-
-

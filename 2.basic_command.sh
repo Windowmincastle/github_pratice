@@ -25,11 +25,25 @@ git commit -am "add와 commit 동시에"
 git log가 잇고
 # git log 간결하게
 git log --oneline
-# 전체 이력 조회, ()
+# 전체 이력 조회, () ->해야하는 상황이 있다.
 git log --all
+# 로그를 그래프 형태로 조회 원라인과 그래프를 같이 쓸수잇다.
+git log --graph
 
 
 #원격 저장소로 업로드 브랜치명은 상관이없다. 내가 관리하는 브랜치에다가 push 한다.
 git push origin 브랜치명, 
 
-#충돌 무시하고 강제 push
+#충돌 무시하고 강제 push 하는경우? 걔는 틀렸고 내가 커밋한게 맞아!
+# 하지만 정석은 원격의 내용응ㄴ 뭔지 pull 받아오고 내것과 비교하고 충돌해결하고 merge
+#근데 이 상황은 내 코드가 맞아! 하고 강제 푸시하는 것 이다. 혼자 개발하다 꼬이면 하는 경우가 많다.
+git push origin master --force , -> 혼자할때는 많이 쓰지만 같이할떈 쓰지마라
+
+#특정 커밋 ID로의 전환 실무에서 중요한것 commit ID는 항상 잘 써야한다. 굉장히 중요하다.
+git checkout 커밋ID
+#이거 제대로 안 하면 많이 혼나거나 욕 먹을 것 이다.
+
+#다시 현재의 master(브랜치)로 return
+git checkout master
+
+

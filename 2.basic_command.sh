@@ -58,8 +58,20 @@ git reset
 # commit 이후의 취소 -> 엄청 많이 쓰는 것 같다.
 git reset HEAD~1
 git reset HEAD^
+# 워킹디렉토리에서 추가파일 취소
+git clean --fdx
+# 수정취소 동시에 취소
+git checkout . | git clean --fdx
 
 # push 이후의 취소 push는 아예 없엇던 일이 되는건 불가능하다. 다시 되돌리기만 가능
 git revert 커밋ID
 
+#버전별 비교 명령어 : diff
+#A를 기준으로 B가 어떤 변경이 있는지를 비교
+git diff A B
+git diff commitid1 commitid2 1번 시점과 2번 시점의 버젼이 무슨 차이가 있는지?
 
+A a7895598eebb8b3
+B b76b77e503fbf67977d 테스트
+
+git diff A브랜치 B브랜치, 기준이 브랜치가 될수있다.

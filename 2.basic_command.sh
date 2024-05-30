@@ -85,6 +85,7 @@ git log --all
 
 
 # git fetch
+git fetch --all 모든 레파지토리 정보를 가져온다 ?
 # 원격에 변경사항을 로컬에 가져오되 병합은 하지 않는것
 
 
@@ -142,3 +143,15 @@ git branch --all 도 가능
 feature/author_register
 
 깃허브 브렌치에서 브렌치를 만들고 떙겨오는 경우가 일반적이다?
+
+pr 올릴게 pr할게 라는 표현 많이 쓴다.
+
+# 브랜치 생성과 전환 동시에, 가장 많이 사용하는 명령어인거같다.
+git checkout -b 브랜치명
+feature 브랜치 생명주기 -> merger가 끝나는 순간 사라져야될 브랜치가 된다.
+
+로컬에서 브랜치 생성시 주의사항 : 최신화된 main에서 checkout -b 하라
+=> git checkout main -> git pull -> git checkout -b feature/test
+
+원격에서 브랜치 생성 -> 로컬에서 해당 브랜치를 fetch -> feature1, feature2
+

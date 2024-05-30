@@ -94,4 +94,11 @@ case4
 -> 작업사항 다시 추가해서 -> add , commit , push
 
 
+1. 로컬에 커밋발생 시키고 원격에 커밋발생
+=> 같은 파일 수정한것
+
+git push -> 충돌 실패 -> git pull -> auto merge failed ->
+-> 병합파일을 만들어준다 -> 그거를 수정한 후에 -> add -> commit -> merge commit
+
+
 case5

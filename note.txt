@@ -100,5 +100,9 @@ case4
 git push -> 충돌 실패 -> git pull -> auto merge failed ->
 -> 병합파일을 만들어준다 -> 그거를 수정한 후에 -> add -> commit -> merge commit
 
+2번쨰 방법
+git push -> 충돌 실패 -> git fetch -> git diff -> git pull -> auto merge failed ->
+-> 병합파일을 만들어준다 -> 그거를 수정한 후에 -> add -> commit -> merge commit
+
 
 case5

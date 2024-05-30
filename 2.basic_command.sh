@@ -131,7 +131,7 @@ git push origin v.10
 git tag
 
 최신 태그를 대상으로 버전을 태깅한다.
-
+ master
 # 브랜치 생성
 # 현재 checkout 하고 있는 브랜치를 기준을 브랜치 생성
 git bracnh 브랜치명

@@ -129,3 +129,18 @@ git push origin v.10
 
 #태그 목록 조회
 git tag
+
+최신 태그를 대상으로 버전을 태깅한다.
+
+# 브랜치 생성
+# 현재 checkout 하고 있는 브랜치를 기준을 브랜치 생성
+git bracnh 브랜치명
+# 해당 브랜치로 전환
+git checkout 브랜치명
+#브랜치 목록 조회 , 파란색명으로 뜨는게 지금 내가 사용하고 있는 브랜치
+git branch
+git branch --all 도 가능
+
+feature/author_register
+
+깃허브 브렌치에서 브렌치를 만들고 떙겨오는 경우가 일반적이다?

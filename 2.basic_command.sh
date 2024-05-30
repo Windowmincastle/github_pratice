@@ -86,6 +86,7 @@ git log --all
 
 # git fetch
 git fetch --all 모든 레파지토리 정보를 가져온다 ?
+git fetch --all --prune ->싹 비워준다
 # 원격에 변경사항을 로컬에 가져오되 병합은 하지 않는것
 
 
@@ -157,3 +158,5 @@ feature 브랜치 생명주기 -> merger가 끝나는 순간 사라져야될 브
 
 원격에서 브랜치 생성 -> 로컬에서 해당 브랜치를 fetch -> feature1, feature2
 
+브렌치 삭제
+git branch -D feature/

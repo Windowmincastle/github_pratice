@@ -113,3 +113,6 @@ case5
         
         메이저     마이너
 
+
+로컬에서 시작-> 메인만 최신화 -> 깃 체크아웃 -b 브랜치명
+원격에서 시작해 -> git fetch --all -> git checkout -b feature1 origin/feature1

@@ -113,3 +113,8 @@ git stash list
 git stash show 
 #저장한 최신의 작업목록 꺼내기
 git pop
+
+실습
+원격에 커밋이력 발생 , 로컬에는 워킹디렉토리만 작업
+깃 풀 -> 충돌발생 -> 임시저장 -> 머지 -> 임시저장한 내용 적용 -> add , commit , push
+

@@ -86,6 +86,8 @@ git log --all
 
 # git fetch
 # 원격에 변경사항을 로컬에 가져오되 병합은 하지 않는것
+
+
 작업중인 사항을 임시저장
 git stash
 저장한 최신의 작업목록 꺼내기
@@ -100,3 +102,14 @@ test1.txt, test2.txt 변경하기
 git stash
 git stash list
 git stash pop
+
+그렇게 강조하지 않겟다. 스테시
+
+#저장한 목록은 놔둔 채 작업 목록 적용
+git stash apply stash@인덱스값
+#저장한 작업사항 목록조회
+git stash list
+#저장한 작업목록 상세조회
+git stash show 
+#저장한 최신의 작업목록 꺼내기
+git pop

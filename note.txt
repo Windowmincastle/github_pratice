@@ -78,3 +78,11 @@ fetch 성공 -> 머지 실패 어디어디 틀렷는지 비교해서 알려줌
 
 
 case1
+
+case2
+
+case3
+
+case4
+
+case5

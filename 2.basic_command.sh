@@ -118,3 +118,14 @@ git pop
 원격에 커밋이력 발생 , 로컬에는 워킹디렉토리만 작업
 깃 풀 -> 충돌발생 -> 임시저장 -> 머지 -> 임시저장한 내용 적용 -> add , commit , push
 
+
+
+# 버전 명시 tagging
+git tag v1.0
+git tag v1.0 -m "최초 버전(주요 추가사항들을 여기적는다)"
+
+# commit 푸시와 상관없이 태그(release) 별도 push
+git push origin v.10
+
+#태그 목록 조회
+git tag

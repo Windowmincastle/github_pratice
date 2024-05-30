@@ -106,3 +106,10 @@ git push -> 충돌 실패 -> git fetch -> git diff -> git pull -> auto merge fai
 
 
 case5
+
+
+배포할때 특정 기준을 가지고 이 기능까지만 배포하자
+보통 3개다. x . x . x
+        
+        메이저     마이너
+
